@@ -24,6 +24,8 @@ Usage of killer feature: Finance teams use it on every outbound payment to autom
 **Triage model:**
 **Frontier model:**
 **Routing rule:**
+| Cost Category | Per-User/Month | Notes |
+|--------------|----------------|-------|
 **Expected cascade ratio:**
 
 ## Pricing Model
