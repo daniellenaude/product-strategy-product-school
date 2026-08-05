@@ -12,8 +12,8 @@
 ## Portability Score
 <! Partial >
 
-## If [primary vendor] doubles pricing tomorrow:
+## If [primary vendor] doubles pricing tomorrow: Within 48 hours, activate our secondary AI provider via the abstraction layer, benchmark it against our evaluation suite, and migrate production traffic to maintain service while renegotiating with the primary vendor
 <!-- What's your 48-hour response? Within 48 hours, activate our secondary AI provider via the abstraction layer, benchmark it against our evaluation suite, and migrate production traffic to maintain service while renegotiating with the primary vendor -->
 
-## If [primary vendor] ships a competing product:
+## If [primary vendor] ships a competing product: Our moat is proprietary bank verification outcomes and fraud intelligence built from real customer payment behavior, creating a continuously improving dataset that a model provider cannot replicate by releasing a generic AI feature
 <!-- What's defensible that they can't replicate? Our moat is proprietary bank verification outcomes and fraud intelligence built from real customer payment behavior, creating a continuously improving dataset that a model provider cannot replicate by releasing a generic AI feature -->
