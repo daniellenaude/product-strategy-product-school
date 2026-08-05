@@ -11,12 +11,12 @@ Usage of killer feature: Finance teams use it on every outbound payment to autom
 
 | Cost Category | Per-User/Month | Notes |
 |--------------|----------------|-------|
-| Inference (primary model) | | |
-| Inference (cascading/triage) | | |
-| Infrastructure | | |
-| Data/storage | | |
-| Human-in-the-loop | | |
-| **Total AI COGS** | | |
+| Inference (primary model) |$3.50 |Claude/GPT for fraud reasoning and risk explanations on every verification request. |
+| Inference (cascading/triage) |$0.75 |Use a smaller, cheaper model for ~70–80% of requests; escalate only ambiguous cases to the primary model. |
+| Infrastructure |$2.00 |API gateway, compute, monitoring, logging, queues, and orchestration. |
+| Data/storage |$4.50 |Verification history, embeddings, audit logs, fraud signals, and encrypted storage. |
+| Human-in-the-loop |$1.75 |Manual review of approximately 1–2% of high-risk or disputed cases. |
+| **Total AI COGS** |$12.00 |Total AI-related operating cost per customer per month. |
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
