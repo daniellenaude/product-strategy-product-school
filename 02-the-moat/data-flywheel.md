@@ -37,22 +37,22 @@
 ## Encroachment Threat Assessment
 
 ### 1. Platform Encroachment
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker: Microsoft **
+**Vector: Add payee verification, account ownership checks, and fraud risk scoring into Dynamics, Azure, and enterprise payment workflows **
+**Time-to-threat: 12-24 months **
+**% of value at risk: 30-50% **
 
 ### 2. Vertical Competitor
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker: Trustpair **
+**Vector: Expand deeper into enterprise vendor payment fraud with richer supplier networks, account verification, and payment fraud intelligence **
+**Time-to-threat: Already happening **
+**% of value at risk: 50-70% **
 
 ### 3. Adjacent Expansion
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker: Stripe **
+**Vector: Add bank account verification and payee fraud detection as a native feature alongside existing payment and treasury products **
+**Time-to-threat: 6-18 months **
+**% of value at risk: 40-60% **
 
 ---
 
@@ -60,9 +60,26 @@
 
 *Your partner played the Big Tech attacker. What was their plan to kill you?*
 
-**Attacker:**
-**Attack vector (target the weakest loop):**
-**Weeks 1-4 - what they ship:**
-**Weeks 5-8 - how they poach users:**
-**Weeks 9-12 - why users don't come back:**
-**Your defense:**
+**Attacker: Microsoft **
+**Attack vector (target the weakest loop): Own the workflow, not the verification. Bundle bank account verification, payee validation, and fraud scoring into Dynamics 365, Copilot, and Azure so customers never need a separate vendor **
+**Weeks 1-4 - what they ship: 
+- Native payee verification API
+- Account ownership validation
+- Fraud risk score in payment approval workflows
+- Copilot explains why a payment is risky**
+**Weeks 5-8 - how they poach users:
+- Included in existing Microsoft enterprise licenses
+- One-click enablement for Dynamics customers
+- Migration tools and APIs for existing verification vendors
+- Sales team bundles it into Microsoft renewals **
+**Weeks 9-12 - why users don't come back:
+- No extra vendor to manage
+- Good enough accuracy for most finance teams
+- Lower total cost because it's bundled
+- Verification becomes an invisible part of the ERP workflow instead of a standalone product**
+**Your defense:
+- Build the industry's largest proprietary fraud and payment outcome dataset
+- Become significantly more accurate than bundled solutions
+- Focus on high-risk industries (payroll, legal, procurement, real estate, marketplaces)
+- Create network effects by learning from every verified payment across customers
+- Become the system of record for trusted payees, not just a verification API**
