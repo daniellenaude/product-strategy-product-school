@@ -61,22 +61,27 @@
 *Your partner played the Big Tech attacker. What was their plan to kill you?*
 
 **Attacker: Microsoft **
+
 **Attack vector (target the weakest loop): Own the workflow, not the verification. Bundle bank account verification, payee validation, and fraud scoring into Dynamics 365, Copilot, and Azure so customers never need a separate vendor **
+
 **Weeks 1-4 - what they ship: 
 - Native payee verification API
 - Account ownership validation
 - Fraud risk score in payment approval workflows
 - Copilot explains why a payment is risky**
+
 **Weeks 5-8 - how they poach users:
 - Included in existing Microsoft enterprise licenses
 - One-click enablement for Dynamics customers
 - Migration tools and APIs for existing verification vendors
 - Sales team bundles it into Microsoft renewals **
+
 **Weeks 9-12 - why users don't come back:
 - No extra vendor to manage
 - Good enough accuracy for most finance teams
 - Lower total cost because it's bundled
 - Verification becomes an invisible part of the ERP workflow instead of a standalone product**
+
 **Your defense:
 - Build the industry's largest proprietary fraud and payment outcome dataset
 - Become significantly more accurate than bundled solutions
