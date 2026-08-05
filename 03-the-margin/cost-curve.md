@@ -1,10 +1,10 @@
 # Cost Curve & Pricing Strategy
 
 ## Packaging Decision
-|Leader feature: Instant bank account verification that helps businesses stop fraudulent payments before money is sent.
+Leader feature: Instant bank account verification that helps businesses stop fraudulent payments before money is sent.
 Filler feature: Basic account validation, audit logs, dashboards, and API integrations that customers expect from any fintech tool.
 Killer feature: AI-powered fraud intelligence that detects suspicious payees using proprietary payment outcomes and network signals before a payment is approved.
-Usage of killer feature: Finance teams use it on every outbound payment to automatically block or flag high-risk bank accounts before funds leave the business. Therefore roughly 25% and should be an add-on. |
+Usage of killer feature: Finance teams use it on every outbound payment to automatically block or flag high-risk bank accounts before funds leave the business. Therefore roughly 25% and should be an add-on. 
 
 
 ## Cost Model
