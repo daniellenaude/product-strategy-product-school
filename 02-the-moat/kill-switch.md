@@ -4,7 +4,7 @@
 
 | Dimension | Current State | Risk Level | 48-Hour Action |
 |-----------|--------------|------------|---------------|
-| **Provider** | | H / M / L | |
+| **Provider** | | H / M / L | | Review contracts to confirm usage and timeframe commitments, and begin negotiations if necessary.
 | **Abstraction** | | H / M / L | |
 | **Routing** | | H / M / L | |
 | **Eval** | | H / M / L | |
