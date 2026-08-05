@@ -7,30 +7,30 @@
 
 | Loop | What It Measures | Score 1 | Score 5 | Score |
 |------|------------------|---------|---------|-------|
-| **Correction** | Do users fix AI outputs? Is that signal captured and reused? | No capture | Automated retraining | __/5 |
-| **Preference** | Does the product learn individual / team preferences over time? | Stateless | Deep personalization | __/5 |
-| **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | __/5 |
-| **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | __/5 |
+| **Correction** | Do users fix AI outputs? Is that signal captured and reused? | No capture | Automated retraining | 1/5 |
+| **Preference** | Does the product learn individual / team preferences over time? | Stateless | Deep personalization | 2/5 |
+| **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | 1/5 |
+| **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | 2/5 |
 
-### Correction Loop - __/5
-**What you capture today:**
-**How it compounds:**
+### Correction Loop - 1/5
+**What you capture today:No capture **
+**How it compounds:No compounding **
 
-### Preference Loop - __/5
-**What you capture today:**
-**How it compounds:**
+### Preference Loop - 2/5
+**What you capture today: Individual/customer peferences are noted but not always acted upon **
+**How it compounds: No compounding **
 
-### Domain Context Loop - __/5
-**What you capture today:**
-**How it compounds:**
+### Domain Context Loop - 1/5
+**What you capture today: Usage in one area does not impact or improve any adjacent areas **
+**How it compounds: No compunding **
 
-### Network Loop - __/5
-**What you capture today:**
-**How it compounds:**
+### Network Loop - 2/5
+**What you capture today: Usage metrics such as drop-off points can indicate areas the product needs to improve to benefit all users **
+**How it compounds: Direction for product teams **
 
-**Total Flywheel Score: __/20**
-**Weakest Loop:**
-**Fix for weakest loop:**
+**Total Flywheel Score: 6/20**
+**Weakest Loop: Corrections & Domain Context Loops **
+**Fix for weakest loop: Systematically capturing user corrections as feedback to refine outputs and continuously enrich domain-specific context with high quality examples, knowledge, and documentation **
 
 ---
 
