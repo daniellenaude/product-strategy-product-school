@@ -48,7 +48,7 @@ Pricing Strategy
 - Estimated units/user/month: 2000
 - Implied revenue/user/month: $499.00
 
-Decision Note - Why this pricing structure fits the buyer and the value delivered: Basic fee covers API access, dashboard, integrations, support, and the first 500 verifications. Price per unit is charged after first 500 allowance. A hybrid pricing model works well because customers pay for access to a trusted verification platform and in proportion to the fraud prevention value they receive as their payment volume grows
+Decision Note - Why this pricing structure fits the buyer and the value delivered: Basic fee covers API access, dashboard, integrations, support, and the first 500 verifications. Price per unit is charged after first 500 allowance. A hybrid pricing model works well because customers pay for access to a trusted verification platform and in proportion to the fraud prevention value they receive as their payment volume grows. The margins are 80.8%.
 
 **Model:** hybrid
 
@@ -56,9 +56,9 @@ Decision Note - Why this pricing structure fits the buyer and the value delivere
 
 | Scenario | Impact on Margin | Response |
 |----------|-----------------|----------|
-| Inference costs 3x | | |
-| Heaviest segment doubles | | |
-| Model provider raises prices 50% | | |
+| Inference costs 3x |-33.7% |Increase base fee by 10-20% |
+| AI COGS per user 2x |-16.9% |Increase price per unit by $0.1 |
+| Usage volume 4x |-50.5% |Increase both base fee and price per unit |
 
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
