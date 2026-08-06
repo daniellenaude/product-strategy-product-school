@@ -48,8 +48,8 @@ Pricing Strategy
 - Estimated units/user/month: 2000
 - Implied revenue/user/month: $499.00
 
-Decision Note
-Why this pricing structure fits the buyer and the value delivered: Basic fee covers API access, dashboard, integrations, support, and the first 500 verifications. Price per unit is charged after first 500 allowance **
+Decision Note - Why this pricing structure fits the buyer and the value delivered: Basic fee covers API access, dashboard, integrations, support, and the first 500 verifications. Price per unit is charged after first 500 allowance. A hybrid pricing model works well because customers pay for access to a trusted verification platform and in proportion to the fraud prevention value they receive as their payment volume grows
+
 **Model:** hybrid
 
 ## Stress Tests
