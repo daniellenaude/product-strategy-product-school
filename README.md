@@ -1,5 +1,6 @@
 # My AI Product Strategy
 # **Your Role:**
+# **Your Role:**
 
 > A living strategy built across 6 sessions. Each module adds one component. By Module 6, this repo IS the strategy, version-controlled, board-ready, portable.
 
@@ -108,5 +109,6 @@
 - **Key Strategic Change:**
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
+
 
 >
