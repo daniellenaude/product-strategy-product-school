@@ -24,8 +24,13 @@ Usage of killer feature: Finance teams use it on every outbound payment to autom
 **Triage model:**
 **Frontier model:**
 **Routing rule:**
-| Cost Category | Per-User/Month | Notes |
+**| Feature | Complexity | Model Tier | Cost/Request | Volume % | Weighted | **
 |--------------|----------------|-------|
+|Transaction Scanner | | | | | |
+|Transaction Context | | | | | |
+|Transaction Dispute Template | | | | |
+|Blended |
+
 **Expected cascade ratio:**
 
 ## Pricing Model
