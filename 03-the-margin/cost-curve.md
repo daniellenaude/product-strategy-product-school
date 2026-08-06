@@ -63,21 +63,27 @@ Decision Note - Why this pricing structure fits the buyer and the value delivere
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
 
-**Before (traditional SaaS): Revenue: $1,000,000 
+**Before (traditional SaaS): 
+Revenue: $1,000,000 
 COGS: $700,000 
 Gross Margin: 30% **
-**After (AI-enabled): Revenue per customer (ARPU): ~$500/year
+
+**After (AI-enabled): 
+Revenue per customer (ARPU): ~$500/year
 COGS per customer: $96/year
 Gross profit per customer: $404/year
 Gross margin: 80.8%
 Customers needed for ~$2M ARR: ~4,000 **
-**Net margin shift: Gross $ Change:
+
+**Net margin shift: 
+Gross $ Change:
 Original Gross Profit: $300,000
 New Gross Profit: $1,616,000
-Gross Profit Increase: +$1,316,000 (over 5× higher)
+Gross Profit Increase: +$1,316,000 (over 5× higher) **
+
 Margin Change:
 Original Gross Margin: 30.0%
 New Gross Margin: 80.8%
-Increase: +50.8 percentage points
-By moving from a labour-intensive verification business to an AI-powered verification platform, we dramatically improve our unit economics. Revenue doubles from $1M to $2M while COGS falls from $700k to $384k because AI automates the majority of verification work and scales at a much lower incremental cost than people. This increases gross margin from 30% to 80.8%, generating over $1.3M in additional gross profit. Beyond the financial improvement, the platform is more scalable, faster to serve customers, and creates a proprietary fraud intelligence dataset that becomes more valuable as transaction volume grows, strengthening our competitive advantage over time.
-**
+Increase: +50.8 percentage points **
+
+** By moving from a labour-intensive verification business to an AI-powered verification platform, we dramatically improve our unit economics. Revenue doubles from $1M to $2M while COGS falls from $700k to $384k because AI automates the majority of verification work and scales at a much lower incremental cost than people. This increases gross margin from 30% to 80.8%, generating over $1.3M in additional gross profit. Beyond the financial improvement, the platform is more scalable, faster to serve customers, and creates a proprietary fraud intelligence dataset that becomes more valuable as transaction volume grows, strengthening our competitive advantage over time. **
