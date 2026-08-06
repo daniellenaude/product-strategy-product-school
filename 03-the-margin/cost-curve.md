@@ -26,7 +26,7 @@ Usage of killer feature: Finance teams use it on every outbound payment to autom
 **Routing rule: Send every request to the triage model first, escalating only uncertain, high-risk, or high-value payments to the frontier model **
 
 | Feature | Complexity | Model Tier | Cost/Request | Volume % | Weighted | 
-|--------------|----------------|-------|
+|---------|------------|------------|--------------|----------|----------|
 |Bank Account Verification |Low |Triage |$0.01 |70% |$0.007 |
 |Payee Risk Assessment |Medium |Frontier (Sonnet 4) |$0.05 |20% |$0.01 |
 |Fraud Investigation and Explanation |High |Frontier (Opus 5) |$0.25 |10% |$0.025 |
