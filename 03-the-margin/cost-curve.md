@@ -36,9 +36,21 @@ Usage of killer feature: Finance teams use it on every outbound payment to autom
 
 ## Pricing Model
 
-**Current pricing:**
-**Proposed AI pricing:**
-**Model:** seat-based / usage-based / outcome-based / hybrid
+**Current pricing: n/a **
+**Proposed AI pricing:
+
+Pricing Strategy
+- Strategy posture: Maximize
+- Pricing model: Seat / Access
+- Unit of work metered: bank account verification requests
+- Base fee ($/month): 199
+- Price per unit: $0.15
+- Estimated units/user/month: 2000
+- Implied revenue/user/month: $499.00
+
+Decision Note
+Why this pricing structure fits the buyer and the value delivered: Basic fee covers API access, dashboard, integrations, support, and the first 500 verifications. Price per unit is charged after first 500 allowance **
+**Model:** hybrid
 
 ## Stress Tests
 
