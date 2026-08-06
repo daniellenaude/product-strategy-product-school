@@ -21,17 +21,18 @@ Usage of killer feature: Finance teams use it on every outbound payment to autom
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
 
-**Triage model:**
-**Frontier model:**
-**Routing rule:**
-**| Feature | Complexity | Model Tier | Cost/Request | Volume % | Weighted | **
-|--------------|----------------|-------|
-|Transaction Scanner | | | | | |
-|Transaction Context | | | | | |
-|Transaction Dispute Template | | | | |
-|Blended |
+**Triage model: Claude 4.5 Haiku = fast, low-cost classification of routine verification requests **
+**Frontier model: Claude Sonnet 4/Opus 5 = complex fraud investigations, ambiguous account ownership cases, and generating customer-facing risk explanations **
+**Routing rule: Send every request to the triage model first, escalating only uncertain, high-risk, or high-value payments to the frontier model **
 
-**Expected cascade ratio:**
+| Feature | Complexity | Model Tier | Cost/Request | Volume % | Weighted | 
+|--------------|----------------|-------|
+|Bank Account Verification |Low |Triage |$0.01 |70% |$0.007 |
+|Payee Risk Assessment |Medium |Frontier (Sonnet 4) |$0.05 |20% |$0.01 |
+|Fraud Investigation and Explanation |High |Frontier (Opus 5) |$0.25 |10% |$0.025 |
+|Blended | | | | 100% | $0.042 |
+
+**Expected cascade ratio: 70-20-10 **
 
 ## Pricing Model
 
