@@ -22,7 +22,7 @@
 
 ## Confidence UX Design
 
-**Approach:** iered confidence with human-in-the-loop triggers works for bank account verification because most checks are routine and can be automated, while ambiguous or high-value fraud cases carry disproportionate financial risk and therefore require human oversight before approval or blocking.
+**Approach:** Tiered confidence with human-in-the-loop triggers works for bank account verification because most checks are routine and can be automated, while ambiguous or high-value fraud cases carry disproportionate financial risk and therefore require human oversight before approval or blocking.
 
 **Confident (>90%):** The UI should show “Verified / Low Risk” with the confidence score and supporting signals, allowing the AI to recommend approval while explicitly avoiding guarantees of legitimacy or zero fraud risk.
 
