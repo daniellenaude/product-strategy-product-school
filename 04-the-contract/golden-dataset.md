@@ -24,11 +24,11 @@
 
 **Approach:** iered confidence with human-in-the-loop triggers works for bank account verification because most checks are routine and can be automated, while ambiguous or high-value fraud cases carry disproportionate financial risk and therefore require human oversight before approval or blocking.
 
-**Confident (>90%):** At >90% confidence, the UI should show “Verified / Low Risk” with the confidence score and supporting signals, allowing the AI to recommend approval while explicitly avoiding guarantees of legitimacy or zero fraud risk.
+**Confident (>90%):** The UI should show “Verified / Low Risk” with the confidence score and supporting signals, allowing the AI to recommend approval while explicitly avoiding guarantees of legitimacy or zero fraud risk.
 
-**Uncertain (50-90%):** At 50–90% confidence, the UI should show “Uncertain / Review Recommended,” explain the conflicting signals, and route the decision to a human rather than allowing the AI to make a definitive approval or fraud claim.
+**Uncertain (50-90%):** The UI should show “Uncertain / Review Recommended,” explain the conflicting signals, and route the decision to a human rather than allowing the AI to make a definitive approval or fraud claim.
 
-**Not confident (<50%):** At <50% confidence, the UI should show “Unable to Verify / Do Not Proceed,” explain the key risk signals, block or hold the payment, and require human verification rather than allowing the AI to make a definitive fraud accusation.
+**Not confident (<50%):** The UI should show “Unable to Verify / Do Not Proceed,” explain the key risk signals, block or hold the payment, and require human verification rather than allowing the AI to make a definitive fraud accusation.
 
 **User control surface:** 
 
