@@ -57,5 +57,3 @@
 
 
 
-## Red-Team Findings
-*What failure mode did your partner find that you missed?*
