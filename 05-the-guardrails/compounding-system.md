@@ -38,9 +38,6 @@
 _Not shipping agents this version._
 
 
-## Agent Topology
-<!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
-
 ## Shadow AI Audit
 
 | Tool | Owner | Risk Level | Decision |
