@@ -1,6 +1,5 @@
 # My AI Product Strategy
 # **Your Role:**
-# **Your Role:**
 
 > A living strategy built across 6 sessions. Each module adds one component. By Module 6, this repo IS the strategy, version-controlled, board-ready, portable.
 
@@ -70,11 +69,11 @@
 
 **Why users will trust a probabilistic system.**
 
-- **Reliability Target:**
+- **Reliability Target:** 95%
 - **Golden Dataset:**
-- **Confidence UX:** show uncertainty / tiered confidence / human-in-loop trigger
-- **HITL Architecture:**
-- **Failure Mode Coverage:** *What failure mode did your partner find that you missed?*
+- **Confidence UX:** Tiered confidence with human-in-the-loop triggers works for bank account verification because most checks are routine and can be automated, while ambiguous or high-value fraud cases carry disproportionate financial risk …
+- **HITL Architecture:** **Trigger:** Humans review all cases with <90% AI confidence, any hard fraud signal, or payments above a defined high-value threshold, targeting <10% of total transactions for manual review.
+- **Failure Mode Coverage:**
 
 → Details: [`04-the-contract/`](04-the-contract/)
 
@@ -84,14 +83,14 @@
 
 **What breaks when this scales, and what compounds.**
 
-- **Compounding System:** | Loop | Input | Output | Compounds? | Status | |------|-------|--------|-----------|--------| | | | | Y/N | active / broken / missing | | | | | Y/N | active / broken / missing | | | | | Y/N | active / broken / missing |
-- **Governance Posture:** **Autonomy boundaries:**
-- **Autonomy Boundaries:** **Escalation triggers:**
-- **Escalation Triggers:** **Audit cadence:**
-- **Audit Cadence:** **Regulatory exposure (EU AI Act / other):**
-- **Shadow AI Audit (user-side):** __ workarounds found · **Estimated hidden spend:** build candidates
-- **Agent Boundaries:**
-- **Regulatory Exposure:**
+- **Compounding System:** | Loop | Input | Output | Compounds? | Status | |------|-------|--------|-----------|--------| | Recursive Learning | Human-reviewed verification decisions, confirmed fraud outcomes, false positives/negatives, and new go…
+- **Governance Posture:** AI-assisted bank-account and payee verification, including account ownership/name matching, fraud-risk scoring, anomaly detection, verification recommendations, confidence scoring, human escalation, audit logging, model …
+- **Autonomy Boundaries:** Routine account verification with ≥90% confidence and no hard-risk signals, auto. Flagging an account as uncertain when confidence is 50–89%, auto. Blocking a payment based solely on an AI fraud assessment, human approval required.…
+- **Escalation Triggers:** 1. AI confidence <90% on the verification decision. 2. Payment exceeds the customer's predefined high-value threshold. 3. Account/bank details conflict with authoritative verification data. 4.…
+- **Audit Cadence:** Real-time, Confidence scores, hard fraud signals, latency, model/provider failures and escalation triggers (James, AI Operations Lead).…
+- **Shadow AI Audit (user-side):**
+- **Agent Boundaries:** _Not shipping agents this version._
+- **Regulatory Exposure:** EU AI Act, GDPR, UK GDPR/Data Protection Act 2018, and applicable financial-sector/model-risk regulations apply because the product processes potentially sensitive financial/personal data and influences payment-risk deci…
 
 → Details: [`05-the-guardrails/`](05-the-guardrails/)
 
@@ -110,5 +109,3 @@
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
 
-
->
