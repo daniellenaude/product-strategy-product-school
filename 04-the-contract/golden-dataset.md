@@ -42,13 +42,20 @@
 
 | Metric | Target | Measurement | Alert Threshold |
 |--------|--------|-------------|-----------------|
-| Accuracy | | | |
-| Hallucination rate | | | |
-| Latency (p95) | | | |
-| Drift velocity | | | |
+| Accuracy | 95% | Measure accuracy weekly by comparing the AI’s verification and fraud decisions against confirmed bank ownership results, historical payment outcomes, and human-reviewed cases, tracking overall accuracy plus false-positive and false-negative rates against the 95% target. Conduct monthly formal reviews as well. | <90% → page on-call |
+| Hallucination rate | <0.1% | Run a weekly gold-set audit of known verified accounts, comparing every AI claim against authoritative bank/verification data and tracking unsupported or factually incorrect claims. | >0.5% → auto-rollback to last good model |
+| Latency (p95) | <1,000ms | se Datadog APM/OpenTelemetry to timestamp every verification request from API receipt through rules/model processing to the final response, then monitor P95 end-to-end latency in a 5-minute rolling window and alert when it exceeds the threshold. | >1500ms for 5 consecutive minutes → page on-call |
+| Drift velocity | <0.25% per week | Run the same stratified gold set weekly, compare accuracy/false-positive/false-negative rates against the production baseline, and use Datadog to track the rolling change over time; supplement this with monthly sampling of newly confirmed payment outcomes. | >0.5% per week → trigger gold-set audit |
 
 ## HITL Architecture
-<!-- When does a human step in? What's the escalation path? -->
+
+**Trigger:** Humans review all cases with <90% AI confidence, any hard fraud signal, or payments above a defined high-value threshold, targeting <10% of total transactions for manual review.
+
+**Reviewer:** A trained fraud/risk analyst reviews escalated cases daily, with a senior risk/compliance reviewer conducting a weekly quality audit of a sample of decisions.
+
+**Feedback loop:** Yes—100% of confirmed human corrections are added to the gold set weekly and used for monthly model/prompt evaluation and retraining, creating a continuous M2 learning flywheel.
+
+
 
 ## Red-Team Findings
 *What failure mode did your partner find that you missed?*
