@@ -43,11 +43,11 @@ _Not shipping agents this version._
 Shadow AI Audit (user-side), Module 5
 
 ## Discover, User-Side Workarounds
-- Users export verification results to ChatGPT/Claude to interpret ambiguous payee names and explain why an account was flagged. | source: Support ticket | signal: Capability gap | freq: H | spend: $$150/mo | decision: Build
-- Users manually combine your verification output with Excel/Google Sheets to create their own supplier risk scores and approval queues. | source: User interview | signal: Workflow gap | freq: H | spend: $$250/mo | decision: Build
-- Finance teams use Make/Zapier to connect your API to Slack/email and automatically alert managers when a high-risk account is detected. | source: Zapier/Make | signal: Workflow gap | freq: M | spend: $$100/mo | decision: Partner
-- Users query ChatGPT/Claude with invoice + supplier information to investigate suspicious bank-detail-change requests before contacting the supplier. | source: User interview | signal: Capability gap | freq: M | spend: $$200/mo | decision: Build
-- Users manually check Companies House / Google / supplier websites to validate whether a beneficiary is a legitimate business when your verification result is uncertain. | source: Sales call | signal: Trust gap | freq: M | spend: $$300/mo | decision: Partner
+- Users export verification results to ChatGPT/Claude to interpret ambiguous payee names and explain why an account was flagged. | source: Support ticket | signal: Capability gap | freq: H | spend: $150/mo | decision: Build
+- Users manually combine your verification output with Excel/Google Sheets to create their own supplier risk scores and approval queues. | source: User interview | signal: Workflow gap | freq: H | spend: $250/mo | decision: Build
+- Finance teams use Make/Zapier to connect your API to Slack/email and automatically alert managers when a high-risk account is detected. | source: Zapier/Make | signal: Workflow gap | freq: M | spend: $100/mo | decision: Partner
+- Users query ChatGPT/Claude with invoice + supplier information to investigate suspicious bank-detail-change requests before contacting the supplier. | source: User interview | signal: Capability gap | freq: M | spend: $200/mo | decision: Build
+- Users manually check Companies House / Google / supplier websites to validate whether a beneficiary is a legitimate business when your verification result is uncertain. | source: Sales call | signal: Trust gap | freq: M | spend: $300/mo | decision: Partner
 
 ## Pattern Assessment
 - Workarounds found: 5
@@ -79,12 +79,4 @@ Recommended next step: Prioritise native AI investigation/explanations and suppl
 Sequence the Build column by frequency × strategic relevance. Confirm Partner candidates with the external tools' partnership teams. Re-run this audit each quarter, as shadow-AI workarounds and user behaviour shift quickly.
 
 
-| Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
