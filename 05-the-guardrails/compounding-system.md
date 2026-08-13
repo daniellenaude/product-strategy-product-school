@@ -40,6 +40,45 @@ _Not shipping agents this version._
 
 ## Shadow AI Audit
 
+Shadow AI Audit (user-side), Module 5
+
+## Discover, User-Side Workarounds
+- Users export verification results to ChatGPT/Claude to interpret ambiguous payee names and explain why an account was flagged. | source: Support ticket | signal: Capability gap | freq: H | spend: $$150/mo | decision: Build
+- Users manually combine your verification output with Excel/Google Sheets to create their own supplier risk scores and approval queues. | source: User interview | signal: Workflow gap | freq: H | spend: $$250/mo | decision: Build
+- Finance teams use Make/Zapier to connect your API to Slack/email and automatically alert managers when a high-risk account is detected. | source: Zapier/Make | signal: Workflow gap | freq: M | spend: $$100/mo | decision: Partner
+- Users query ChatGPT/Claude with invoice + supplier information to investigate suspicious bank-detail-change requests before contacting the supplier. | source: User interview | signal: Capability gap | freq: M | spend: $$200/mo | decision: Build
+- Users manually check Companies House / Google / supplier websites to validate whether a beneficiary is a legitimate business when your verification result is uncertain. | source: Sales call | signal: Trust gap | freq: M | spend: $$300/mo | decision: Partner
+
+## Pattern Assessment
+- Workarounds found: 5
+- Build candidates: 3
+- Partner candidates: 2
+- Ignore decisions: 0
+- Adjacent spend: $1000/mo
+- Dominant signal: Capability gap
+
+## Action Plan
+### Build
+1. AI verification explanations and investigation — explain why an account is high/low risk and surface the relevant evidence.
+2. Supplier risk scoring and approval queues — replace spreadsheet-based workflows with a native risk dashboard.
+3. AI-assisted beneficiary investigation — combine verification signals with invoice/supplier context to help investigate ambiguous cases.
+
+### Partner
+1. Make/Zapier — provide official connectors so customers can trigger Slack/email/ERP workflows without building their own automation.
+2. Business/entity data providers — integrate authoritative company-registration and business-verification data rather than forcing users to manually research suppliers.
+
+### Ignore + Monitor
+Do not build a generic spreadsheet replacement, generic ChatGPT interface, or generic Slack notification tool; monitor these behaviours because they are useful signals, but only absorb the underlying high-value verification/intelligence capability.
+
+## Roadmap Brief
+Based on your audit: 5 user-side workarounds discovered.
+Decisions: 3 build · 2 partner · 0 ignore · 0 TBD.
+Estimated adjacent spend: ~$1,000/mo across surveyed users.
+Dominant signal: capability + workflow gaps.
+Recommended next step: Prioritise native AI investigation/explanations and supplier-risk workflows, then validate the strongest external automation and business-data integrations with partnership teams.
+Sequence the Build column by frequency × strategic relevance. Confirm Partner candidates with the external tools' partnership teams. Re-run this audit each quarter, as shadow-AI workarounds and user behaviour shift quickly.
+
+
 | Tool | Owner | Risk Level | Decision |
 |------|-------|-----------|----------|
 | | | H / M / L | keep / govern / kill |
